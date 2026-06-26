@@ -1,0 +1,13 @@
+.heading{
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+.paragraph{
+   font-family: montserrat;
+   text-align: center;
+}
+span{
+  text-decoration: underline;
+}

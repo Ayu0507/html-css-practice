@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>
+  <title>Nested Flexbox</title>
+  <style>
+    .elements{
+    display: flex;
+    flex-direction: row;
+  height:50px;
+  
+    }
+    .nested{
+  background-color: lightpink;
+ width:100px;
+    }
+.item1{
+  display: flex;
+  color: white;
+  background-color: black;
+width:50px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left:20px
+}
+.empty{
+  background-color: lightblue;
+  width:200px;
+}
+.nothing{
+  background-color: lightpink;
+}
+.row{
+  background-color: lightblue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width:200px;
+}
+.row2{
+  display: flex;
+  color: white;
+  background-color: black;
+  margin-top: 0px;
+}
+.rowtwo{
+  display: flex;
+  color: white;
+  background-color: black;
+}
+.nothing{
+  background-color: lightpink;
+ display: flex;
+  flex-direction: row;
+  width:100px;
+  height:70px;
+}
+.nest{
+  display: flex;
+  flex-direction: row;
+}
+.inbox{
+ color: grey;
+ font-size: medium;
+ margin-top: 20px;
+ margin-left: 10px;
+}
+.email{
+  font-family: arial;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  height:120px;
+  padding-top: 5px;
+}
+.image{
+  width:50px;
+  height:50px;
+  border-radius:50px;
+  display: flex;
+  flex-direction: row;
+}
+.promotion{
+  font-weight: bold;
+  width:300px ;
+  margin-left: 20px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+.about{
+  color:grey;
+    width:330px ;
+  margin-left: 20px;
+margin-top: 0px;
+
+}
+.time{
+  color:grey;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+</style>
+</head>
+<html>
+  <body>
+    <div class="elements">
+ <div class="nested"><div class="item1">item1</div></div>
+ <div class="empty"></div>
+  </div>
+ <hr>
+ <div class="nest">
+ <div class="nothing"></div>
+ 
+ 
+ <div class="row">
+  <div>
+  <div class="row1">row1</div>
+  <p class="row2">row2</p>
+  </div>
+  <p class="rowtwo">row2</p>
+ </div>
+ </div>
+
+ <hr>
+
+  <div class="email">
+        <div class="inbox"><p>ALL INBOXES</p></div>
+      <div class="image">
+        <image  class="image" src="oliver.webp"></image>
+      <div class="discription">
+        <p class="promotion">Chewy Promotions Biggest sales of the year!</p>
+        <p class="about">Hey there! We're writing to tell you about our...</p>
+      </div>
+      <div class="time">4:58PM</div>
+ </div></div>
+
+  <div class="email">
+        <div class="inbox"><p>ALL INBOXES</p></div>
+      <div class="image">
+        <image  class="image" src="kitten.webp"></image>
+      <div class="discription">
+        <p class="promotion">Best Buy</p>
+        <p class="promotion">Your Best Buy eReceipt</p>
+        <p class="about">Thank you for shopping at Best Buy,here is...</p>
+      </div>
+      <div class="time">12:32PM</div>
+ </div></div>
+
+
+  <div class="email">
+        <div class="inbox"><p>ALL INBOXES</p></div>
+      <div class="image">
+        <image  class="image" src="cat..webp"></image>
+      <div class="discription">
+        <p class="promotion">Netflix</p>
+        <p class="promotion">Here's what's coming soon to Netflix</p>
+        <p class="about">Brand new movies and shoes, old favorites...</p>
+      </div>
+      <div class="time">9:00PM</div>
+ </div></div>
+
+
+    </body>
+</html>

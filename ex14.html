@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Position</title>
+  <style>
+    div{
+      display: flex;
+      flex-direction: row;
+      width:100%;
+      font-family: arial;
+      
+    }
+    .image{
+      border-radius: 50px;
+      width:30px;
+      height:30px;
+      margin-right: 12px;
+      margin-left: 30px;
+      margin-top: 10px;
+      
+    }
+    .name{
+      font-weight: bold;
+      margin-top: 18px;
+      margin-left: 0px;
+      font-size: small;
+      
+    }
+    .friend{
+      display: flex;
+      height:30px;
+      margin-top: 10px;
+      background-color: blue;
+      width:140px;
+      align-items:center;
+      padding-left: 15px;
+      color: white;
+      border-radius:5px;
+      font-size: small;
+      
+}
+.message{
+  display: flex;
+      height:30px;
+      margin-top: 10px;
+      background-color: rgb(220, 216, 216);
+      width:110px;
+      align-items:center;
+      padding-left: 15px;
+      border-radius:5px;
+      margin-left:10px;
+      font-size: small;
+      font-weight: bold;
+      
+}
+.block{
+  display:flex;
+  flex-direction: column;
+  position: fixed;
+ left:0px;
+ top:60px;
+ 
+ width:100px;
+ height:100%;
+  background-color: rgb(38, 38, 38);
+}
+.imagee{
+border-radius: 50px;
+      width:60px;
+      height:60px;
+      margin-right: 12px;
+      margin-left: 15px;
+      margin-top: 10px;
+      display:flex;
+      flex-direction: column;
+  
+}
+.hastage{
+  margin-left: 120px;
+  display: block;
+}
+.info{
+  margin-left: 120px;
+}
+.plus{
+margin-left: 100px;
+font-size: x-large;
+margin-top: 5px;
+color: rgb(155, 154, 154);
+
+}
+.information{
+ display: block;
+  line-height: 20px;
+  position: fixed;
+ left:0px;
+ top:60px;
+ 
+}
+.info{
+color:white;
+  margin-top: 0px;
+  background-color: rgb(74, 74, 74);
+  width: 170px;
+  height:100%;
+  font-size:smaller;
+  padding-left: 20px;
+  margin-left: 80px;
+  margin-bottom: 0px;
+}
+.hastage{
+  padding-top: 10px;
+  margin-top: 0px;
+   background-color: rgb(74, 74, 74);
+   width: 170px;
+   height:100%;
+   font-size:smaller;
+     padding-left: 20px;
+  margin-left: 80px;
+  color: rgb(155, 154, 154);
+  padding-bottom: 450px;
+}
+  </style>
+</head>
+<body>
+<div>
+    <image src="kitten.webp"  class="image"></image>
+  <div class="name">Oliver Cat</div>
+  <div class="friend">Add Friend</div>
+  <div class="message">Message</div>
+  </div>
+  <hr>
+<div class="block">
+  <div>
+    <image class="imagee" src="cat..webp"></image>
+    </div>
+    <div>
+    <image class="imagee" src="kitten.webp"></image>
+    </div>
+    <div>
+    <image class="imagee" src="oliver.webp"></image>
+  </div>
+  </div>
+  
+  <div class="information">
+<div class="info">
+  <p style="margin-bottom: 0px;">INFO</p>
+  <p class="plus">&#43;</p>
+</div>
+  <div class="hastage">
+    <p style="margin-top: 0px;"># new-videos</p>
+    <p># updates</p>
+    <p># faq</p>
+  </div>
+</div>
+</body>
+</html>
